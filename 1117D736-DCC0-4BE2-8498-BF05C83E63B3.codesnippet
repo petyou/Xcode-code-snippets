@@ -3,27 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>csinit</string>
+	<string>csweak</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (instancetype)init 
-{
-    if (self = [super init]) {
-        &lt;#code#&gt;
-    }
-    return self;
-}</string>
+	<string>@property (nonatomic, weak) id &lt;&lt;#type&gt;#&gt;&gt; delegate;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A4CFC98E-2763-40FA-819D-277C90068714</string>
+	<string>1117D736-DCC0-4BE2-8498-BF05C83E63B3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>init_最简单的</string>
+	<string>short of write short property</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>init_nsobject</string>
+	<string>property_weak</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
