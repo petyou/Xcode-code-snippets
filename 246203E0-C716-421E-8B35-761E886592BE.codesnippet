@@ -9,12 +9,18 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string> _desLabel = [[UILabel alloc] initWithFrame:CGRectZero];
-        _desLabel.font = [UIFont boldSystemFontOfSize:10];
-        _desLabel.textColor = [UIColor whiteColor];
-        _desLabel.backgroundColor = [UIColor whiteColor];
-        _desLabel.textAlignment = NSTextAlignmentCenter;
-        [self addSubview:_desLabel];</string>
+	<string>UILabel *alabel = [[UILabel alloc] initWithFrame:CGRectZero];
+alabel.text = &lt;#text#&gt;;
+alabel.textColor = &lt;#color#&gt;;
+alabel.backgroundColor = &lt;#color#&gt;;
+alabel.font = [UIFont systemFontOfSize:&lt;#fontSize#&gt;];
+alabel.textAlignment = NSTextAlignmentCenter;
+alabel.numberOfLines = 0;
+alabel.layer.borderWidth = &lt;#width#&gt;;
+alabel.layer.borderColor = &lt;#color#&gt;.CGColor;
+alabel.layer.cornerRadius = &lt;#radius#&gt;;
+alabel.layer.masksToBounds = YES;
+[self.view addSubview:alabel];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>246203E0-C716-421E-8B35-761E886592BE</string>
 	<key>IDECodeSnippetLanguage</key>

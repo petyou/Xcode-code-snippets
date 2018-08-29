@@ -3,24 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>csinitf</string>
+	<string>csimageview</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (instancetype)initWithFrame:(CGRect)frame {
-    if (self = [super initWithFrame:frame]) {
-        &lt;#statements#&gt;
-    }
-    return self;
-}</string>
+	<string>        UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectZero];
+imageView.image = [UIImage imageNamed:&lt;#name#&gt;];
+imageView.layer.cornerRadius = &lt;#height#&gt; / 2.0;
+        imageView.layer.masksToBounds = YES;
+        [self addSubview:imageView];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>912D759F-BAB4-4724-96C5-8D4B5C09D608</string>
+	<string>59B21B0E-0A48-4E9D-8106-18616FC02FD4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>imageView create</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>initwithframe</string>
+	<string>imageView create</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,24 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>csinitf</string>
+	<string>csinterface</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (instancetype)initWithFrame:(CGRect)frame {
-    if (self = [super initWithFrame:frame]) {
-        &lt;#statements#&gt;
-    }
-    return self;
-}</string>
+	<string>@interface &lt;#Type#&gt; ()
+
+@end</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>912D759F-BAB4-4724-96C5-8D4B5C09D608</string>
+	<string>558E93AB-E232-4D1C-B058-5362E05BE4F3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>@interface</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>initwithframe</string>
+	<string>@interface</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
