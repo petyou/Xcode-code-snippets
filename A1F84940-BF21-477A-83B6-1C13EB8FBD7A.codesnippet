@@ -3,28 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>csprotocol</string>
+	<string>csexclick</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@class &lt;#name#&gt;;
-
-@protocol &lt;#name#&gt;Delegate &lt;NSObject&gt;
-@optional
-- (void)&lt;#name#&gt;:(&lt;#type#&gt; *)&lt;#obj#&gt; didClickedWith&lt;#obj#&gt;
-@end
-
-@property (nonatomic, weak) id &lt;&lt;#protocol#&gt;&gt; delegate;</string>
+	<string>extension &lt;#class#&gt;: SDClickMethod {
+    @objc func nextButtonClick() {
+        
+    }
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>518AE18C-8D2D-42AE-845E-B3BB77944855</string>
+	<string>A1F84940-BF21-477A-83B6-1C13EB8FBD7A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>protocol</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>protocol</string>
+	<string>extensionSDClickMethod</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

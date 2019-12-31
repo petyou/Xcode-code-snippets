@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>csinitf</string>
+	<string>cscellint</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -17,16 +17,16 @@
 
 @implementation &lt;#class#&gt;
 
-- (instancetype)initWithFrame:(CGRect)frame {
-    if (self = [super initWithFrame:frame]) {
-        _currentMoneyLabel = [UILabel styletOneLabelWithText:@"abc" textColor:[WPUITool colorFor:HSKColorMain] textFont:[UIFont boldFontOfSize:38] backgroundColor:[UIColor clearColor] textAlignment:NSTextAlignmentCenter];
-        [self addSubview:_currentMoneyLabel];
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
+    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
+        _currentMoneyLabel = [UILabel styletOneLabelWithText:@"abc" textColor:[HSKUIManager colorFor:HSKColorMain] textFont:[UIFont boldFontOfSize:38] backgroundColor:[UIColor clearColor] textAlignment:NSTextAlignmentCenter];
+        [self.contentView addSubview:_currentMoneyLabel];
         
         _leftImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@""]];
-        [self addSubview:_leftImageView];
+        [self.contentView addSubview:_leftImageView];
         
         _nextButton = [UIButton styletOneButtonWithText:@"" textColor:[UIColor wp_colorWithHex:0x333333] textFont:[UIFont systemFontOfSize:13] backgroundColor:[UIColor whiteColor]];
-        [self addSubview:_nextButton];
+        [self.contentView addSubview:_nextButton];
     }
     return self;
 }
@@ -44,11 +44,11 @@
 }
 @end</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>912D759F-BAB4-4724-96C5-8D4B5C09D608</string>
+	<string>50D234C8-F0FC-4BF2-8A97-C4FBC68C52AB</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>initwithframe</string>
+	<string>cellinit</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

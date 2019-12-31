@@ -3,28 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>csprotocol</string>
+	<string>csdc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@class &lt;#name#&gt;;
-
-@protocol &lt;#name#&gt;Delegate &lt;NSObject&gt;
-@optional
-- (void)&lt;#name#&gt;:(&lt;#type#&gt; *)&lt;#obj#&gt; didClickedWith&lt;#obj#&gt;
-@end
-
-@property (nonatomic, weak) id &lt;&lt;#protocol#&gt;&gt; delegate;</string>
+	<string>if (self.delegate &amp;&amp; [self.delegate respondsToSelector:@selector(&lt;#method#&gt;)]) {
+[self.delegate &lt;#method#&gt;];
+        }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>518AE18C-8D2D-42AE-845E-B3BB77944855</string>
+	<string>4E9225A9-EBE1-4E49-822E-6F2F330C78A4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>protocol</string>
+	<string>delegate call</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>protocol</string>
+	<string>delegate call</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

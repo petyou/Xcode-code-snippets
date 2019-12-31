@@ -3,28 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>csprotocol</string>
+	<string>csoverrequest</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@class &lt;#name#&gt;;
-
-@protocol &lt;#name#&gt;Delegate &lt;NSObject&gt;
-@optional
-- (void)&lt;#name#&gt;:(&lt;#type#&gt; *)&lt;#obj#&gt; didClickedWith&lt;#obj#&gt;
-@end
-
-@property (nonatomic, weak) id &lt;&lt;#protocol#&gt;&gt; delegate;</string>
+	<string> override func requestDidStartLoad(request: SDBaseRequest) {
+        super.requestDidStartLoad(request: request)
+        
+    }
+    
+    override func requestDidFinishLoad(request: SDBaseRequest) {
+        super.requestDidFinishLoad(request: request)
+    }
+    
+    override func requestDidFail(request: SDBaseRequest, error: Error, isNoNetWork: Bool) {
+        super.requestDidFail(request: request, error: error, isNoNetWork: isNoNetWork)
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>518AE18C-8D2D-42AE-845E-B3BB77944855</string>
+	<string>5609F1C4-DA37-44F9-B59E-846E76A8CB84</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>protocol</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>protocol</string>
+	<string>override sdbaserequest delegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
