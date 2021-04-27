@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>markfpublic</string>
+	<string></string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - Public func</string>
+	<string>// MARK: - Private func</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>908D4EC4-7501-4EFB-A52D-8560B74A9C68</string>
+	<string>B8A573E5-0755-4F24-82E0-B44AC1B18D74</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>markfpublic</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>mark public func</string>
+	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

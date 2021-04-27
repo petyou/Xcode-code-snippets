@@ -2,22 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>markfpublic</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - Public func</string>
+	<string>SH_PROPERTY_COPY NSString *currentLoadedHTML;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>908D4EC4-7501-4EFB-A52D-8560B74A9C68</string>
+	<string>9A9A04C6-FE2F-47A6-BE8E-F5F1AEEBF6AD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>markfpublic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>mark public func</string>
+	<string>candelete</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
